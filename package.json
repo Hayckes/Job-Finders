@@ -1,0 +1,31 @@
+{
+  "name": "job_finder",
+  "version": "1.0.0",
+  "description": "sistema feito para que seja possivel econtrar vagas de emprego para programadores e cadastralas tbm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Hayckes/Job-Finders.git"
+  },
+  "keywords": [
+    "eu7531598"
+  ],
+  "author": "Ravel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hayckes/Job-Finders/issues"
+  },
+  "homepage": "https://github.com/Hayckes/Job-Finders#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express-handlebars": "^8.0.3",
+    "sequelize": "^6.37.7",
+    "sqlite": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
